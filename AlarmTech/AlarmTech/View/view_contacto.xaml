@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlarmTech.View.view_contacto"
+             BackgroundColor="#34495E"
+             Title="Contacto"
+             IconImageSource="icon_infoC.png">
+    <ContentPage.Content>
+        <StackLayout Padding="0">
+            <Grid>
+                <StackLayout Padding="0" Margin="0">
+                    <Frame BackgroundColor="#34495E" HeightRequest="130" HorizontalOptions="FillAndExpand">
+
+                    </Frame>
+
+                </StackLayout>
+                <StackLayout Margin="15,110,10,0">
+
+                    <Frame BackgroundColor="#FFf" HeightRequest="320" HorizontalOptions="FillAndExpand" CornerRadius="10" HasShadow="true">
+                        <StackLayout>
+                            <StackLayout>
+                                <Label Text="Contacto" TextColor="Black" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                            </StackLayout>
+                            <StackLayout Margin="0,25,0,0">
+                                <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" Margin="0,13,0,0" CornerRadius="50" HorizontalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Frame BackgroundColor="AliceBlue" 
+                                           CornerRadius="50" 
+                                           HeightRequest="35" 
+                                           WidthRequest="35" Padding="0" Margin="7" HorizontalOptions="Start">
+
+                                        </Frame>
+                                        <Entry x:Name="txtemail" Placeholder="Correo electronico" PlaceholderColor="#ccc" TextColor="Black" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                                    </StackLayout>
+                                </Frame>
+                                <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" Margin="0,13,0,0" CornerRadius="50" HorizontalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Frame BackgroundColor="AliceBlue" 
+                                           CornerRadius="50" 
+                                           HeightRequest="35" 
+                                           WidthRequest="35" Padding="0" Margin="7" HorizontalOptions="Start">
+
+                                        </Frame>
+                                        <Entry x:Name="txt_comment" Placeholder="Comentario, queja o sugerencia" PlaceholderColor="#ccc" TextColor="Black" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                                    </StackLayout>
+                                </Frame>
+                                <Button VerticalOptions="Center"
+                                        x:Name="bt_login"
+                    Text="Enviar"
+                   
+                    BackgroundColor="#047BF2"
+                    BorderWidth="1.5"
+                    TextColor="#FFF"
+                    CornerRadius="50"
+                                        Margin="0,20,0,0"/>
+                            </StackLayout>
+
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

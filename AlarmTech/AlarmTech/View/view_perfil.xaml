@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             x:Class="AlarmTech.View.view_perfil"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:local="clr-namespace:AlarmTech.View"
+            mc:Ignorable="d"
+            Title="Inicio"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core;assembly=Xamarin.Forms.Core"
+            IconImageSource="icon_profile.png"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            BackgroundColor="#34495E"
+            BarBackgroundColor="#34495E"
+            >
+    <local:view_Activacion_s/>
+    <local:view_Actividad/>
+    <local:view_contacto/>
+    <local:view_sobre_nosotros/>
+
+</TabbedPage>

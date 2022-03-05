@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlarmTech.View.view_sobre_nosotros"
+             BackgroundColor="#34495E"
+             Title="Sobre nosotros"
+             IconImageSource="icon_aboutus.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="0">
+                <Grid>
+                    <StackLayout Padding="0" Margin="0">
+                        <Frame BackgroundColor="#34495E" HeightRequest="140" HorizontalOptions="FillAndExpand">
+
+                        </Frame>
+
+                    </StackLayout>
+                    <StackLayout Margin="15,110,10,0">
+
+                        <Frame BackgroundColor="#5587A4 " HeightRequest="340" HorizontalOptions="FillAndExpand" CornerRadius="10" HasShadow="true">
+                            <StackLayout>
+                                <StackLayout>
+                                    <Label Text="Sobre nosotros" TextColor="White" Margin="20" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                                    <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." TextColor="White" Margin="20" FontSize="Medium" FontAttributes="Italic" HorizontalTextAlignment="Center"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlarmTech.View.view_Activacion_s"
+             Title="activacion"
+             IconImageSource="icon_act.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="0">
+                <Grid>
+                    <StackLayout Padding="0" Margin="0">
+                        <Frame BackgroundColor="#34495E" HeightRequest="140" HorizontalOptions="FillAndExpand">
+
+                        </Frame>
+
+                    </StackLayout>
+                    <StackLayout Margin="15,110,10,0">
+
+                        <Frame BackgroundColor="#5587A4" HeightRequest="40" HorizontalOptions="FillAndExpand" CornerRadius="10" HasShadow="true">
+                            <StackLayout>
+                                <StackLayout>
+                                    <Label Text="Gestión de sensores" TextColor="White" Margin="5" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </Grid>
+                <Grid>
+                    <StackLayout Margin="15,50,10,0">
+                        <Frame BackgroundColor="#5587A4" HeightRequest="180" HorizontalOptions="FillAndExpand" CornerRadius="10" HasShadow="true">
+
+                            <StackLayout>
+                                <Label Text="Activa o Desactiva los sensores instalados" TextColor="White" Margin="5" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                                <StackLayout>
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*"/>
+
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Button ImageSource="icon_lock.png" FontSize="10" Text="activar" Margin="20,30,20,0" BorderColor="#AAD4FB" BorderWidth="0.5" BackgroundColor="#0987FF" CornerRadius="30" Grid.Row="0" Grid.Column="0"/>
+                                        <Button ImageSource="icon_unlock.png"  FontSize="10" Text="desactivar" Margin="20,30,20,0" BorderColor="#AAD4FB" BorderWidth="0.5" BackgroundColor="#0987FF" CornerRadius="30" Grid.Row="0" Grid.Column="1"/>
+                                    </Grid>
+
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
